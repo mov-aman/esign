@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-ENV PORT=80 \
+ENV PORT=3000 \
     APP_NAME="Digital Signature App"
 
 COPY . /usr/share/nginx/html
